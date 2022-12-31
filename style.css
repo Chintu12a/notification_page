@@ -13,6 +13,10 @@ body {
     background-color: hsl(205, 33%, 90%);
 }
 
+.dark_blue {
+    color: hsl(219, 85%, 26%);
+}
+
 span {
     font-weight: 800;
     color: black;
@@ -36,9 +40,9 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: hsl(210, 60%, 98%); */
+    background-color: #e5effa;
     flex-wrap: nowrap;
-    /* padding: 30px; */
+    padding: 40px;
 }
 
 .box {
@@ -72,17 +76,39 @@ span {
     margin-right: 15px;
 }
 
+.user_Info_comment {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    justify-content: space-between;
+}
+ .nameTime img {
+    margin-right: 15px;
+ }
+
+.user_Info_comment img {
+    height: 45px;
+    width: 45px;
+}
+
 .nameTime {
     color: rgb(97, 97, 97);
 }
 
-/* .hidden {
-    background-color: white;
-} */
+.user_Info_comment .nameTime {
+    display: flex;
+    align-items: center;
+}
+
 
 .clear {
     cursor: pointer;
 }
+ .clear:hover{
+    color: hsl(219, 85%, 26%);
+ }
 
 .red_dot {
     background-color: red;
